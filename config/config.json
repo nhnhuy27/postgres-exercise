@@ -13,17 +13,29 @@
 		}
 	},
 	"test": {
-		"username": "root",
-		"password": null,
-		"database": "database_test",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
+		"username": "dbo_a3ny_user",
+		"password": "MjGmfWvZE6NlnZcdP1OLDwTxe5c6LkiP",
+		"database": "dbo_a3ny",
+		"host": "dpg-clhkgp6f27hc739rio9g-a.singapore-postgres.render.com",
+		"dialect": "postgres",
+		"dialectOptions": {
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		}
 	},
 	"production": {
-		"username": "root",
-		"password": null,
-		"database": "database_production",
-		"host": "127.0.0.1",
-		"dialect": "mysql"
+		"username": "dbo_a3ny_user",
+		"password": "MjGmfWvZE6NlnZcdP1OLDwTxe5c6LkiP",
+		"database": "dbo_a3ny",
+		"host": "dpg-clhkgp6f27hc739rio9g-a.singapore-postgres.render.com",
+		"dialect": "postgres",
+		"dialectOptions": {
+			"ssl": {
+				"require": true,
+				"rejectUnauthorized": false
+			}
+		}
 	}
 }
